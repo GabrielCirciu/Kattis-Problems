@@ -14,10 +14,10 @@ for _ in range(m):
     if operation == 0:
         print("1") if sets[x] == sets[y] else print("0")
 
-    # MERGE SETS NOT ELEMENTS
-    # Union
+    # Union two sets based on which element x and y is in which set
     elif operation == 1:
-        pass
+        if sets[x] != sets[y]:
+            pass
 
     # Move element from one set to another
     else:
